@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "koi-fish"
 dynamic = ["version"]
-description = "CLI tool for managing duplicate files"
+description = "Terminal-based text editor"
 keywords = []
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -18,8 +18,9 @@ Repository = "https://github.com/kaliv0/koi-fish.git"
 
 [project.optional-dependencies]
 dev = [
-    "build == 1.2.2",
-    "twine == 5.1.1",
+    "ruff>=0.7.3",
+    "build>=1.2.2",
+    "twine>=5.1.1",
 ]
 
 
